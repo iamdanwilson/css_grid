@@ -6,6 +6,7 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <p>CSS Flexbox Tutorial!</p>
+                <p>Practising CSS</p>
                 <img src={DufcCrest} alt="dufc crest"/>
             </header>
         </div>
