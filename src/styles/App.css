@@ -1,47 +1,44 @@
 header {
     display: flex;
+    flex-direction: row;
     background-color: #282c34;
     min-height: 10vh;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Vertical justification*/
+    justify-content: space-between;
     font-size: calc(10px + 2vmin);
     color: white;
 }
 
 header .profile-pic{
-    display: flex;
     width: 100px;
-    width: 100px;
+    height: 100px;
     border-radius: 20px;
     border-color: white;
     padding: 10px;
 }
 
 header .title {
-    display: flex;
-    margin: auto;
 }
 
 header .united-badge {
-    display: flex;
     width: 100px;
-    width: 100px;
-    margin: 0 0 0 auto;
+    padding: 10px;
 }
 
 #box-container {
     height: 500px;
     display: flex;
+    flex-direction: row
 }
 
 #box-1 {
-    background-color: darkorange;
-    width: 50%;
-    height: 50%;
+    background-color: black;
+    width: 15%;
+    height: 80%;
 }
 
 #box-2 {
-    background-color: black;
-    width: 50%;
-    height: 50%;
+    background-color: darkorange;
+    width: 85%;
+    height: 80%;
 }
