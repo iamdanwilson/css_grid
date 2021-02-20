@@ -1,13 +1,17 @@
 import './styles/App.css';
-import DufcCrest from './images/dufc-crest.png';
+import PicHeader from "./PicHeader";
+import BoxContainer from "./BoxContainer";
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <p>Hello World!</p>
-                <img src={DufcCrest} alt="dufc crest"/>
-            </header>
+        <PicHeader />
+            <body>
+                <BoxContainer />
+            </body>
+            <footer>
+
+            </footer>
         </div>
     );
 }
