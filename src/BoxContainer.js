@@ -7,7 +7,8 @@ function BoxContainer() {
             <div id="box-1">
                 <Topics />
             </div>
-            <div id="box-2"/>
+            <div id="box-2">
+            </div>
         </div>
     )
 }
