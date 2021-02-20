@@ -5,7 +5,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <p>Hello World!</p>
+                <p>CSS Flexbox Tutorial!</p>
                 <img src={DufcCrest} alt="dufc crest"/>
             </header>
         </div>
