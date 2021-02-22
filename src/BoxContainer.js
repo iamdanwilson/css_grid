@@ -1,5 +1,6 @@
 import React from "react";
 import Topics from "./Topics";
+import Grid from "./Grid";
 
 function BoxContainer() {
     return (
@@ -8,6 +9,7 @@ function BoxContainer() {
                 <Topics />
             </div>
             <div id="box-2">
+                <Grid />
             </div>
         </div>
     )

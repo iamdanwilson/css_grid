@@ -10,7 +10,6 @@ function App() {
                 <BoxContainer />
             </body>
             <footer>
-
             </footer>
         </div>
     );
