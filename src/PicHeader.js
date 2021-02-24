@@ -1,7 +1,7 @@
 import React from "react";
 import DufcCrest from "./images/dufc-crest.png";
 import ProfilePic from "./images/profile-pic.jpg";
-import './styles/App.css';
+import './styles/header.css';
 
 function PicHeader() {
     return (

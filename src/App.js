@@ -1,16 +1,13 @@
 import './styles/App.css';
 import PicHeader from "./PicHeader";
-import BoxContainer from "./BoxContainer";
 
 function App() {
     return (
-        <div className="App">
-        <PicHeader />
-            <body>
-                <BoxContainer />
-            </body>
-            <footer>
-            </footer>
+        <div className="App-Container">
+            <PicHeader />
+                <div className="item2">advert</div>
+                <div className="item3">content</div>
+                <div className="item4">footer</div>
         </div>
     );
 }
