@@ -3,17 +3,25 @@ header {
     grid-area: header;
 }
 
-.item2 {
+.topics-panel {
     background: LightSalmon;
-    grid-area: advert;
+    padding: 10px;
+    grid-area: topics;
 }
 
-.item3 {
+.main-panel {
     background: PaleTurquoise;
     grid-area: content;
 }
 
-.item4 {
+.ads-panel {
+    padding: 10px;
+    background: LightSalmon;
+    grid-area: adverts;
+}
+
+.footer {
+    padding: 10px;
     background: lightpink;
     grid-area: footer;
 }
@@ -24,37 +32,38 @@ header {
     width: 100%;
     background: LightGray;
     display: grid;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: 50px auto 1fr auto;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 50px auto 1fr auto auto;
     grid-gap: 10px;
     grid-template-areas:
-        "advert header"
-        "advert content"
-        "advert content"
-        "advert footer";
+        "header header header"
+        "topics content adverts"
+        "topics content adverts"
+        "footer footer footer";
 }
 
 @media (min-width: 800px){
     .App-Container{
-        grid-template-columns: auto 1fr;
-        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1fr auto ;
+        grid-template-rows: auto 1fr auto auto auto;
         grid-template-areas:
-        "header header"
-        "advert content"
-        "advert content"
-        "footer footer";
+        "header header header"
+        "topics content adverts"
+        "topics content adverts"
+        "footer footer footer";
     }
 }
 
 
 @media (max-width: 800px){
     .App-Container{
-        grid-template-columns: auto 1fr;
-        grid-template-rows: auto 1fr auto;
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto 1fr auto auto auto;
         grid-template-areas:
-        "header header"
-        "advert advert"
-        "content content"
-        "footer footer";
+        "header header header"
+        "topics topics topcis"
+        "content content content"
+        "adverts adverts adverts"
+        "footer footer footer";
     }
 }

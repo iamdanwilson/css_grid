@@ -6,12 +6,13 @@ function App() {
     return (
         <div className="App-Container">
             <PicHeader />
-                <div className="item2">advert</div>
-                <div className="item3">
+                <div className="topics-panel">Topics</div>
+                <div className="main-panel">
                     Mixes
                     <MixesFlexBox />
                 </div>
-                <div className="item4">footer</div>
+                <div className="ads-panel">Adverts</div>
+                <div className="footer">Footer</div>
         </div>
     );
 }
