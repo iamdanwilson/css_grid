@@ -24,34 +24,37 @@ header {
     width: 100%;
     background: LightGray;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto 1fr;
     grid-template-rows: 50px auto 1fr auto;
     grid-gap: 10px;
     grid-template-areas:
-      "header"
-      "advert"
-      "content"
-      "footer";
+        "advert header"
+        "advert content"
+        "advert content"
+        "advert footer";
 }
 
-@media (min-width: 300px){
+@media (min-width: 800px){
     .App-Container{
         grid-template-columns: auto 1fr;
         grid-template-rows: auto 1fr auto;
         grid-template-areas:
-        "advert header"
+        "header header"
         "advert content"
-        "advert footer";
+        "advert content"
+        "footer footer";
     }
 }
 
-@media (min-width: 400px){
+
+@media (max-width: 800px){
     .App-Container{
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr auto;
         grid-template-areas:
-            /* Only change code below this line */
-                "header header"
-                "advert content"
-                "footer footer";
-        /* Only change code above this line */
+        "header header"
+        "advert advert"
+        "content content"
+        "footer footer";
     }
 }
