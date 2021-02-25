@@ -1,0 +1,16 @@
+.mixes-container {
+    min-height: 100px;
+    width: 100%;
+    display: grid;
+    /* Only change code below this line */
+
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+
+    /* Only change code above this line */
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 5px;
+}
+
+iframe{
+    padding: 5px;
+}

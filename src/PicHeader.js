@@ -1,14 +1,23 @@
 import React from "react";
-import DufcCrest from "./images/dufc-crest.png";
-import ProfilePic from "./images/profile-pic.jpg";
+import RefugeFooterSmile from "./images/refuge-footer-smile.svg"
+import TwitterHeaderLogo from "./images/twitter-logo.png"
+import FacebookHeaderLogo from "./images/facebook-logo.png"
+import InstagramHeaderLogo from "./images/instagram-logo.png"
 import './styles/header.css';
 
 function PicHeader() {
     return (
         <header>
-            <img src={ProfilePic} alt="Profile Pic" className="profile-pic"/>
-            <div className="title">Learning Flexbox</div>
-            <img src={DufcCrest} alt="dufc crest" className="united-badge"/>
+            <img src={RefugeFooterSmile} alt="Refuge Navigation Smile" className="refuge-header-pic"/>
+            <div className="header-item">Radio</div>
+            <div className="header-item">News</div>
+            <div className="header-item">Artists</div>
+            <div className="header-item">Support</div>
+            <div className="header-item">About</div>
+            <div className="header-item">Newsletter</div>
+            <img src={InstagramHeaderLogo} alt="Instagram Logo" className="navigation-pic"/>
+            <img src={TwitterHeaderLogo} alt="Twitter Logo" className="twitter-pic"/>
+            <img src={FacebookHeaderLogo} alt="Facebook Logo" className="navigation-pic"/>
         </header>
     )
 }
