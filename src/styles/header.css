@@ -15,17 +15,22 @@ header{
     background: black;
 }
 .navigation-pic{
-    height: 100px;
-    padding: 5px;
+    height: 70px;
+    padding: 1px;
     background: black;
 }
 
 .twitter-pic{
-    height: 80px;
-    padding: 10px;
+    height: 40px;
+    padding: 1px;
+    background: black;
+}
+.facebook-pic {
+    height: 70px;
+    padding: 1px;
     background: black;
 }
 
 .header-item {
-    padding: 10px;
+    padding: 1px;
 }

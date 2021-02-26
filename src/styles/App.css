@@ -1,5 +1,4 @@
-header {
-    background: LightSkyBlue;
+.header {
     grid-area: header;
 }
 
@@ -36,7 +35,7 @@ header {
     font-size: 1.5em;
     min-height: 300px;
     width: 100%;
-    background: LightGray;
+    background: black;
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: 50px auto 1fr auto auto;

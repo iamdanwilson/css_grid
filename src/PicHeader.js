@@ -17,7 +17,7 @@ function PicHeader() {
             <div className="header-item">Newsletter</div>
             <img src={InstagramHeaderLogo} alt="Instagram Logo" className="navigation-pic"/>
             <img src={TwitterHeaderLogo} alt="Twitter Logo" className="twitter-pic"/>
-            <img src={FacebookHeaderLogo} alt="Facebook Logo" className="navigation-pic"/>
+            <img src={FacebookHeaderLogo} alt="Facebook Logo" className="facebook-pic"/>
         </header>
     )
 }
