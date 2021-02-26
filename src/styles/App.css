@@ -5,7 +5,7 @@ header {
 
 .topics-panel {
     background: LightSalmon;
-    padding: 10px;
+    padding: 5px;
     grid-area: topics;
 }
 
@@ -14,14 +14,20 @@ header {
     grid-area: content;
 }
 
+.scrolling-panel {
+    padding: 5px;
+    background: blueviolet;
+    grid-area: scroll;
+}
+
 .ads-panel {
-    padding: 10px;
+    padding: 5px;
     background: LightSalmon;
     grid-area: adverts;
 }
 
 .footer {
-    padding: 10px;
+    padding: 5px;
     background: lightpink;
     grid-area: footer;
 }
@@ -37,6 +43,7 @@ header {
     grid-gap: 10px;
     grid-template-areas:
         "header header header"
+        "scroll scroll scroll"
         "topics content adverts"
         "topics content adverts"
         "footer footer footer";
@@ -48,6 +55,7 @@ header {
         grid-template-rows: auto 1fr auto auto auto;
         grid-template-areas:
         "header header header"
+        "topics scroll scroll"
         "topics content adverts"
         "topics content adverts"
         "footer footer footer";
@@ -61,6 +69,7 @@ header {
         grid-template-rows: auto 1fr auto auto auto;
         grid-template-areas:
         "header header header"
+        "scroll scroll scroll"
         "topics topics topcis"
         "content content content"
         "adverts adverts adverts"
