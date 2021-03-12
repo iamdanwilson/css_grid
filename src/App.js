@@ -2,6 +2,7 @@ import './styles/App.css';
 import PicHeader from "./PicHeader";
 import MixesFlexBox from "./MixesFlexBox";
 import ScrollingBanner from "./ScrollingBanner";
+import HoverNavBar from "./hover-nav-bar";
 
 function App() {
     return (
@@ -9,7 +10,9 @@ function App() {
             <div className="header">
             <PicHeader/>
             </div>
-            <div className="topics-panel">Topics</div>
+            <div className="topics-panel">
+                <HoverNavBar />
+            </div>
             <div className="scrolling-panel">
                 <ScrollingBanner/>
             </div>

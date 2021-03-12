@@ -3,7 +3,7 @@
 }
 
 .topics-panel {
-    background: LightSalmon;
+    background: black;
     padding: 5px;
     grid-area: topics;
 }
